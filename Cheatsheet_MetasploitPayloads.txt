@@ -1,5 +1,10 @@
 [+] Creating Metasploit Payloads
 
+[+] Size of Payloads
+  --smallest
+  -s 700
+  
+
 List payloads
 msfvenom -l
 

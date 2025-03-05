@@ -74,11 +74,6 @@ docker --tlsverify --tlscacert=ca.pem --tlscert=cert.pem --tlskey=key.pem -H=[IP
 - **Dockle** - Container image linter.
 - **cnspec** - Security assessment tool for Docker and Kubernetes.
 
-### Container Runtime Security Tools
-- **Tracee** - Container runtime security tool.
-- **Falco** - Container runtime security tool.
-- **Kubearmor** - Container runtime security enforcement tool.
-- **Tetragon** - Container runtime security tool.
 
 ### Container Registry Tools
 - **regclient** - Tool for interacting with container registries.
